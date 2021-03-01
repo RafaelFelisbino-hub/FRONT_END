@@ -57,17 +57,25 @@ h1, h2{
 }
 
 .p9{
-    color: red;
+    color: rgb(121, 24, 24);
     display: inline;
 }
 
 .div1{
-    position: relative; left: 36%;
+    position: absolute; left: 550px; top: 120px; 
+}
+
+.fundoCadastro{
+    position: relative; left: 500px; top: 43px; 
+    background-color: rgb(235, 198, 121);
+    height: 600px;
+    width: 560px;
+    border-radius: 20px;
 }
 
 hr{
     width: 500px;
-    position: relative; left: -36%;
+    position: relative; left: -12px;
 }
 
 a{
