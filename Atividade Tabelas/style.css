@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+/*NAVBAR*/
+.container{
+    background-color: rgb(167, 166, 164);
+    height: 40px;
+    border-radius: 20px;
+    position: relative; top: -29px;
+}
+
+.ul1{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+/*CSS TABELA 1*/
+#tabela1{
+    border: 1px solid rgb(228, 56, 56);
+    width: 500px;
+    height: 70px;
+}
+
+#th1{
+    background-color: orange;
+    height: 70px;
+    border: 1px solid rgb(228, 56, 56);
+}
+
+#verde{
+    background-color: green;
+    height: 70px;
+    border: 1px solid rgb(228, 56, 56);
+}
+
+#azul{
+    background-color: blue;
+    height: 70px;
+    border: 1px solid rgb(228, 56, 56);
+}
+
+#laranja{
+    background-color: orange;
+}
+/*FIM CSS TABELA 1*/
+
+/*CSS TABELA 2*/
+
+#tabela2{
+    border: 1px solid rgb(0, 0, 0);
+    width: 600px;
+    height: 20px;
+}
+
+#td2{
+    height: 20px;
+    width: 600px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#th2{
+    border: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    width: 600px;
+}
+/*FIM CSS TABELA 2*/
+
+/*CSS TABELA 3*/
+#tabela3{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 20px;
+}
+
+#td3{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 20px;
+}
+
+#th3{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 20px;
+}
+/*FIM CSS TABELA 3*/
+
+/*CSS TABELA 4*/
+#tabela4{
+    border: 2px solid rgb(6, 138, 6);
+    width: 700px;
+    height: 20px;
+}
+
+#td4{
+    border: 2px solid rgb(6, 138, 6);
+    width: 700px;
+    height: 20px;
+    text-align: center;
+}
+
+#th4{
+    border: 2px solid rgb(6, 138, 6);
+    width: 700px;
+    height: 20px;
+}
+
+#td4center{
+    border: 2px solid rgb(6, 138, 6);
+    width: 700px;
+    height: 20px;
+    text-align: center;
+}
+/*FIM CSS TABELA 4*/
+
+.div1{
+    width: 800px;
+     margin: 0 auto;
+}
