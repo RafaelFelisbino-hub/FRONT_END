@@ -57,6 +57,7 @@
     height: 20px;
     width: 600px;
     border: 1px solid rgb(0, 0, 0);
+
 }
 
 #th2{
@@ -64,7 +65,22 @@
     height: 20px;
     width: 600px;
 }
+
+#th2:nth-child(1){
+    background: rgb(151, 182, 192);
+}
+/* pega somente a primeira coluna(elemento) */
+/* child é elementos em comum, no caso, com o mesmo id, #th2 */
+/* Posso criar um id pro primeiro tr e dar uma cor só para o primeiro child, assim só "tabela tem uma cor única" */
+
+#th2:nth-child(2n+0), #th2:nth-child(3n+0), #th2:nth-child(5){
+    background: rgb(183, 229, 255);
+}
+  /* 1#: inicía de 2 e contínua em 2; 2# inicía em 3 e contínua em 3; 3# pega somente a 5 coluna */
 /*FIM CSS TABELA 2*/
+/* 2: início do fluxo *
+  +0: lugar de início do fluxo;
+/
 
 /*CSS TABELA 3*/
 #tabela3{
