@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <style>
+        body::-webkit-scrollbar{
+        width: 0.50rem;
+        }
+
+        body::-webkit-scrollbar-track{
+            background: #1e1e24;
+        }
+
+        body::-webkit-scrollbar-thumb{
+            background: #6649b8;
+        }
+
+        .navbar{
+            width: 590px;
+            height: 30px;
+            position: relative; top: -9px;
+            background-color: #23232e;
+            border-radius: 50px;
+        }
+
+        .navbar-nav{
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            margin-left: 2%;
+            margin-right: 13%;
+        }
+
+        a{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <a href="./index.html">Formulário 1</a>
+            <a href="./index2.html">Formulário 2</a>
+        </ul>  
+    </nav>
+    
+    <h2>Formulário de Inscrição</h2>
+    <h3>Preencha seus dados</h3>
+
+    <label for="nome">Nome:</label>
+    <input type="text" size="40"><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" size="39"><br><br>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" size="60"><br><br>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" size="62"><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" size="5">
+    <input type="text" size="15"><br><br>
+
+    <label for="usuario">Usuário</label>
+    <input type="text" size="22" placeholder="Entre com o seu login"><br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" size="23"><br><br>
+
+    <input type="submit" value="Finalizar minha inscrição">
+</html>

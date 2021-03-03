@@ -1,0 +1,82 @@
+input{
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom:2px;
+}
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+
+.pop{
+    position: relative; left: 272px;
+}
+
+.generoMusical{
+    position: relative; top: 85px;
+}
+
+.labelNao{
+    position: relative; left: -215px;
+}
+
+.nao{
+    position: relative; left: 327px; top: -18px;
+}
+
+.comentario{
+    position: relative; top: -75px;
+}
+
+.button1{
+    position: relative; top: 5px;
+}
+
+fieldset{
+    width:600px;
+}
+
+textarea{
+    margin-top: 4px;
+}
+
+body::-webkit-scrollbar{
+    width: 0.50rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #6649b8;
+}
+
+.navbar{
+    width: 590px;
+    height: 30px;
+    position: relative; top: -9px;
+    background-color: #23232e;
+    border-radius: 50px;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 13%;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
