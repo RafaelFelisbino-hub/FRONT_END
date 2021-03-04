@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.navbar{
+    height: 30px;
+    position: relative; top: -9px;
+    border-radius: 50px;
+    margin-top: -7px;
+    margin-bottom: -10px;
+    background-image: url(https://besthqwallpapers.com/Uploads/24-3-2018/45568/thumb2-wooden-texture-4k-brown-wood-boards-wood-material.jpg);
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.navbar-nav :is(a){
+   font-family: 'Hind', sans-serif;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.navbar-nav :is(a:hover){
+    color: rgb(235, 144, 8);
+    font-size: 22px;
+}
+
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+h3, h1, p{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    position: relative; top: -500px; left: -150px;
+}
+
+img{
+    position: relative; top: 20px;
+}
+
+.div1{
+    width: 400px;
+    position: absolute; left: 1000px; top:400px;   
+}
+
+.div2{
+    width: 400px;
+    position: absolute; left: 0; top: 450px;
+    font-family: 'Hind', sans-serif; 
+}
+
+.formularioCEP{
+    position: absolute; left: 0; top: -290px;
+}
+
+.comentario{
+    width: 400px;
+    position: absolute; left: 0; top: 390px; 
+}
+
+table{
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+
+th:nth-child(1), tr:nth-child(even){
+    background: rgb(202, 202, 202);
+}
+
+td{
+    width: 300px;
+}
+
+th{
+    text-align: center;
+}
+
+button{
+    position: absolute; left: -425px; top: 1rem;
+    border-radius: 50px;
+    padding: 9px 25px;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(235, 144, 8);;
+}
+
+button :is(a){
+    text-decoration: none;
+}
+
+.button2{
+    position: absolute; left: 170px; top: 12rem;
+    border-radius: 20px;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    background-color: white;
+}
+
+body::-webkit-scrollbar{
+    width: 0.50rem;
+  }
+
+body::-webkit-scrollbar-track{
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #f38d07;
+}
+
+textarea{
+    position: absolute; left: -245%; top: 200%;
+    resize: none;
+    overflow: auto;
+}
+
+.comentarioText{
+    position: absolute; left: -980px; top: 400px;
+}
+
+input{
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom:2px;
+}
+
+.reset{
+    position: relative; left: -310px; top: 400px;
+}
+
+.submit{
+    position: relative; left: -1040px; top: 400px;
+}

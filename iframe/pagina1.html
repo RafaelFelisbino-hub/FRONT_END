@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type = "text/javascript" src = "./function.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Página 1</title>
+</head>
+<body>
+    <h2>Produto 1</h2>
+
+    <img src="https://images-americanas.b2w.io/produtos/01/00/img/56135/1/56135132_1GG.jpg" alt="Ovo Páscoa">
+
+    <h3>Ovo De Pascoa Hot Wheels 166g Lacta</h3>
+    <br><br>
+    <p>OVO DE PASCOA HOT WHEELS 166G LACTA</p>
+    <p>OVO HOT WHEELS 166G LACTA</p>
+    <br><br>
+    <h1>R$42,99</h1>
+
+    <div class="div1">
+        <table>
+            <tr>
+                <th colspan="2">Ficha Técnica</th>
+            </tr>
+            <tr>
+                <td>Código</td>
+                <td>56135130</td>
+            </tr>
+            <tr>
+                <td>Código de barras</td>
+                <td>7622210547637</td>
+            </tr>
+            <tr>
+                <td>Marca</td>
+                <td>LACTA</td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td>-40.0</td>
+            </tr>
+            <tr>
+                <td>Tipo de Brinde</td>
+                <td>Carro magnético</td>
+            </tr>
+        </table>
+
+        <h2 class="comentario">Comentários</h2>
+        <p class="div2">MEU FILHO ODIOU O CARRINHO, ELE VEIO QUEBRADO, NOTA 0</p>  
+
+        <div class="formularioCEP">
+            <form method="get" action=".">
+                <label>Cep:
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                       onblur="pesquisacep(this.value);" /></label><br />
+                <label>Rua:
+                <input name="rua" type="text" id="rua" size="60" /></label><br />
+                <label>Bairro:
+                <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+                <label>Cidade:
+                <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+                <label>Estado:
+                <input name="uf" type="text" id="uf" size="2" /></label><br />
+                <label>IBGE:
+                <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+                <button class="button2" type="submit">Continuar</button>
+              </form>
+        </div>
+
+        <h3 class="comentarioText">Escreva um comentário</h3>
+
+        <form action="#">
+            <textarea name="textarea" id="textarea" cols="100" rows=7 wrap="off" placeholder="Seja legal."></textarea>
+            <input class="reset" type="reset" value="Limpar">
+            <input class="submit" type="submit" value="Enviar">
+        </form>
+        
+
+        <button type="button"><a href="https://www.americanas.com.br/produto/56135130?pfm_carac=Ovo%20de%20P%C3%A1scoa&pfm_index=9&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid#info-section" target="blank">Comprar</a></button>
+    </div>
+</body>
+</html>
