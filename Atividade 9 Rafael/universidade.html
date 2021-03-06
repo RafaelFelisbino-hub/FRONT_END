@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Universidade</title>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://image.flaticon.com/icons/png/512/88/88073.png" alt="Icone">
+        <nav>
+            <ul class="navbar-nav">
+                <li><a href="./index.html">Form Academia</a></li>
+                <li><a href="./blog.html">Form Blog</a></li>
+                <li><a href="./universidade.html">Form Universidade</a></li>
+                <li><a href="./diversos.html">Form Diversos</a></li>
+                <li><a href="./demografia.html">Tab Demografia 1</a></li>
+                <li><a href="./demografia2.html">Tab Demografia 2</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <div class="div2">
+            <p>SISTEMA DE GESTÃO ACADÊMICA</p>
+            <h5>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h5><br>
+
+            <form action="#">
+                <div class="div3">
+                    <label for="#">Login</label>
+                    <input type="text" name="login" id="login">
+
+                    <label for="#">Senha</label>
+                    <input type="password" name="senha" id="senha">
+
+                    <label for="#">Status</label>
+                    <select name="condicao" id="condicao">
+                        <option value="inativo">Inativo</option>
+                        <option value="ativo">Ativo</option>
+                    </select><br>
+
+                    <label for="#">Tipo</label>
+                    <input type="radio" name="#" id="tecnico">
+                    <label id="radio2" for="#">Técnico</label>
+
+                    <input type="radio" name="#" id="professor">
+                    <label id="radio2" for="#">Professor</label>
+
+                    <input type="radio" name="#" id="aluno">
+                    <label id="radio2" for="#">Aluno</label>
+
+                    <label for="#">Data Criação</label>
+                    <input type="date" name="data" id="data">
+
+                    <label for="#">Perfil</label>
+                    <input type="radio" name="#" id="convidado">
+                    <label id="radio2" for="#">Convidado</label>
+                    <input type="radio" name="#" id="administrador">
+                    <label id="radio2" for="#">Administrador</label>
+
+                    <label id="observacoes" for="#">Observações</label>
+                    <textarea class="textarea2" name="#" id="texta" cols="50" rows="10"></textarea>
+
+                    <label for="#">Módulos</label>
+                    <input type="checkbox" name="#" id="compras">
+                    <label id="radio2" for="#">Compras</label>
+                    <input type="checkbox" name="#" id="biblioteca">
+                    <label id="radio2" for="#">Biblioteca</label>
+                    <input type="checkbox" name="#" id="academico">
+                    <label id="radio3" for="#">Acadêmico</label>
+                    <input type="checkbox" name="#" id="documentacao">
+                    <label id="radio2" for="#">Documentação</label>
+                    <input type="checkbox" name="#" id="rh">
+                    <label id="radio4" for="#">Recursos humanos</label>
+
+                    <button id="buttonleft" type="button">Cadastrar</button>
+                    <button id="buttonleft" type="reset">Excluir</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

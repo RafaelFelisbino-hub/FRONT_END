@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.bodyIndex{background-color: rgb(236, 250, 223);}
+
+main{margin-left: 300px;}
+
+.navbar{
+    width: 200px;
+    height: 100vh;
+    margin-top: -2vh;
+    margin-left: -8px;
+    background-color: #def3f8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+#navbarIndex{background-color: rgb(219, 248, 194);}
+
+.navbar :is(img){position: relative; top: 20px;}
+
+.navbar :is(li:hover){font-size: 30px;}
+
+.navbar-nav{
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.navbar-nav :is(li){
+    margin-bottom: 10px;
+    margin-left: -20px;
+    position: relative; top: 150px;
+}
+
+.navbar-nav :is(a){
+    font-size: 2.4vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    width: 170px;
+}
+
+.radioDireita{position: relative; left: 300px; top: -58px;}
+
+.fieldsetGlobal{
+    width: 730px;
+    height: 460px;
+    background-color: rgb(236, 250, 223);
+    border-color: rgb(201, 241, 205);
+}
+
+.fieldsetGlobal :is(input){
+    border: 1.4px solid rgb(13, 153, 1);
+}
+
+.fieldsetGlobal :is(select){
+    display: inline-block;
+    width: 277px;
+}
+
+.fieldset1{
+    width: 300px;
+    color: rgb(13, 153, 1);
+    border-color: rgb(201, 241, 205);
+}
+
+.fieldset1 :is(input){width: 270px;}
+
+.fieldset2{
+    width: 300px;
+    position: relative; left: 400px; top: -113px;
+    color: rgb(13, 153, 1);
+    border-color: rgb(201, 241, 205);
+}
+
+.fieldset2 :is(input){width: 270px;}
+
+.fieldset3{
+    position: relative; top: -95px;
+    width: 700px;
+    height: 90px;
+    color: rgb(13, 153, 1);
+    border-color: rgb(201, 241, 205);
+}
+
+.fieldset4{
+    position: relative; top: -75px;
+    width: 700px;
+    color: rgb(13, 153, 1);
+    border-color: rgb(201, 241, 205);
+}
+
+.fieldset5{
+    width: 733px;
+    height: 220px;
+    margin-top: 12px;
+    color: rgb(13, 153, 1);
+    background-color: rgb(236, 250, 223);
+    border-color: rgb(201, 241, 205);
+}
+
+textarea{
+    resize: none;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.textarea1{position: relative; top: 20px;}
+
+.textarea2{
+    position: relative; left: 152px; top: -30px;
+    resize: none;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+#observacoes{position: relative; top: 60px;}
+
+legend{
+    color: rgb(9, 163, 17);
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1.4px solid rgb(13, 153, 1);
+}
+
+.div2{
+    background-color: rgb(168, 159, 26);
+    width: 400px;
+    height: 19px;
+}
+
+.div2 :is(p){
+    font-size: 12px;
+    font-weight: bold;
+    position: relative; top: 3px;
+}
+
+.div3{width: auto;}
+
+.div3 :is(label){
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.div4{
+    background-color: rgb(91, 174, 223);
+    width: 300px;
+    height: 20px;
+}
+
+.div5{
+    background-color: darkblue;
+    width: 215px;
+    height: 20px;
+    position: relative; left: 300px; top: -20px;
+}
+
+.div6{
+    width: 285px;
+    height: 180px;
+    position: relative; left: 260px; top: -190px;
+}
+
+.div7{
+    width: 425px;
+    height: 420px;
+    position: relative; left: 0; top: 50px;
+}
+
+.div7 :is(h4){position: relative; left: 40%; text-decoration: underline 1px;}
+.div7 :is(p){position: relative; left: 30%;}
+
+#pDemografia{position: relative; left: 10%;}
+
+.tableDemografia1{
+    position: relative; left: 10%; top: 25px;
+    padding: 0 60px;
+}
+
+.tableDemografia1 :is(td){
+    text-align: center;
+}
+
+.tableDemografia1 :is(td){
+    padding: 0 10px;
+}
+
+#cabecalhoDemografia{
+    display: inline-block;
+    border-top: 1px solid black;
+}
+
+#footerDemografia{
+    position: relative; left: 28px; top: 34px;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+
+#tableEsquerda{
+    width: 75px;
+    position: relative; left: -90px;
+}
+
+.borderCima{
+    border: 1px solid black;
+    position: relative; top: 32px; left: 14px;
+    width: 402px;
+}
+
+.borderBaixo{
+    border: 1px solid black;
+    position: relative; top: 52px; left: 14px;
+    width: 402px;
+}
+
+.borderFooter{
+    border: 1px solid black;
+    position: relative; top: 215px; left: 14px;
+    width: 402px;
+}
+
+.div8{
+    width: 425px;
+    height: 450px;
+    position: relative; left: 0; top: 50px;
+    text-align: center;
+}
+
+.div8 :is(p){font-size: 14px; font-weight: bold;}
+.div8 :is(h4){text-decoration: underline;}
+
+#salarioMinimo{text-align: right; font-weight: normal;}
+
+.borderCima2{
+    border: 1px solid black;
+    position: relative; top: -495px; left: 14px;
+    width: 410px;
+}
+
+.borderBaixo2{
+    border: 1px solid black;
+    position: relative; top: -470px; left: 14px;
+    width: 410px;
+}
+
+.borderFooter2{
+    border: 1px solid black;
+    position: relative; top: -260px; left: 14px;
+    width: 410px;
+}
+
+.tableDemografia2 :is(td){
+    position: relative; top: -195px; left: -29px;
+    padding: 5px 40px;
+}
+
+.tableDemografia2{
+    text-align: center;
+    position: relative; top: -60px;
+}
+
+#tableEsquerda2{text-align: left;}
+
+#trBH :is(td){font-weight: bold;}
+
+#footerDemografia2{
+    font-size: 12px;
+    position: relative; top: -265px; left: 20px;
+}
+
+.formDiversos :is(label){
+    width: 75px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.formDiversos2{
+    position: relative; top: -160px;
+}
+
+#img1{
+    width: 120px;
+    height: 90px;
+    position: absolute; left: 300px; top: 30px;
+    opacity: 0.7;
+}
+
+#img2{
+    width: 120px;
+    height: 90px;
+    position: absolute; left: 197px; top: -3px;
+    opacity: 0.3;
+}
+
+#img3{
+    width: 120px;
+    height: 90px;
+    position: absolute; left: 530px; top: 50px;
+    opacity: 0.2;
+}
+
+#img4{
+    width: 230px;
+    height: 120px;
+    position: absolute; left: 800px; top: 570px;
+    opacity: 0.3;
+}
+
+#img5{
+    width: 100px;
+    height: 90px;
+    position: absolute; left: 205px; top: 17.4px;
+    opacity: 1;
+}
+
+#button1{
+    position: relative; left: 2px; top: 9px;
+    border: 1px solid rgb(13, 153, 1);
+}
+
+#button2{
+    position: absolute; left: 660px; top: 60px;
+    border: 1px solid rgb(13, 153, 1)
+}
+
+#button3{
+    position: relative; top: -140px;
+}
+
+#radio2{width: auto;}
+
+#radio3{position: relative; left: 370px; top: -29px;}
+
+#radio4{position: relative; left: 305px; top: -29px;}
+
+#buttonleft{position: relative; left: -155px;}
+
+.ulCiencias{
+    position: relative; left: 600px; top: -600px;
+    list-style: none;
+}
+
+#div1Ciencias{
+    width: 240px;
+    height: 25px;
+    background-color: rgb(233, 230, 230);
+}
+
+.div1Ciencias :is(li){font-weight: bold;}
