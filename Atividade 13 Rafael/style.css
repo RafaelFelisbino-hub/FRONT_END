@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://i.ytimg.com/vi/Bj3qepNUFyE/maxresdefault.jpg);
+}
+
+.geral{
+    border: 1px solid white;
+    width: 960px;
+    
+}
+
+/* MENU SUPERIOR */
+
+.menu1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(64, 185, 221);
+}
+
+.menu1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px;
+}
+
+.menu1 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu1 a:hover{
+    color: aqua;
+}
+
+/* MENU INFERIOR */
+
+.menu2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(64, 185, 221);
+    margin-top: 170px;
+}
+
+.menu2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px;
+}
+
+.menu2 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu2 a:hover{
+    color: aqua;
+}
+
+/* LOGO */
+
+.logo img{
+    width: 350px;
+    height: 250px;
+}
+
+.conteudoLogo{
+    width: 400px;
+    height: 50px;
+    margin-left: 450px;
+    margin-top: -230px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.conteudo{
+    width: 960px;
+    height: 50vh;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 960px;
+    height: 50px;
+    background-color: rgb(64, 185, 221);
+}
+
+/* INDEX */
+
+#imgIndex{
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 350px;
+    height: 250px;
+}
+
+.textoIndex{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+
+/* NAVES */
+
+#imgNaves{
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 350px;
+    height: 250px;
+}
+
+.tableNaves{
+    border: 1px solid white;
+    margin-left: 500px;
+    margin-top: -350px;
+    border-spacing: 15px;
+}
+
+.tableNaves td, .tableNaves th{
+    border: 1px solid white;
+    color: white;
+}
+
+/* ESTAÇÕES */
+
+#imgEstacoes{
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 350px;
+    height: 250px;
+}
+
+.textoEstacoes{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+
+/* RECRUTAMENTO */
+
+.formulario{
+    margin-left: 200px;
+    margin-top: -400px;
+}
+
+.formulario label{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    clear: left;
+    width: 150px;
+    text-align: left;
+}
+
+.formulario input{
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom:2px;
+}
+
+.comentario{
+    margin-left: 250px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+textarea{
+    margin-top: 20px;
+    resize: none;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+button{
+    margin-left: 430px;
+    padding: 10px 10px;
+}
+
+button:hover{
+    background-color: rgb(64, 185, 221);
+}
+
+/* FOOTER */
+
+.rodape{
+    margin-left: -1px;
+}
+
+.rodape h3{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
