@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../style.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logo.png" alt="IANES TECH" width="200px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./cadastro.html">Cadastro</a></li>
+                        <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+                <img src="../img/cart.png" alt="" width="50px" height="50px">
+                <img src="../img/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+     </div>
+
+     <!-- CONTEÚDO -->
+
+     <div class="row">
+        <div class="col-3">
+            <img src="../img/logan.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="../img/logan2.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="../img/logan3.jpg" alt="">
+        </div>
+     </div>
+     <div class="container">
+        <div class="row">
+            <div class="col-2">
+               <h1>RENAULT <span style="color: red;">LOGAN</span></h1>
+               <p>1.0 12V SCE FLEX ZEN MANUAL</p>
+               <div style="overflow-x:auto;">
+                <table>
+                    <tr>
+                        <td>Ano</td>
+                        <td>KM</td>
+                        <td>Câmbio</td>
+                        <td>Carroceria</td>
+                    </tr>
+                    <tr>
+                        <td>2020/2021</td>
+                        <td>44.146</td>
+                        <td>Manual</td>
+                        <td>Sedã</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Combustível</td>
+                        <td>Final de Placa</td>
+                        <td>Cor</td>
+                        <td>Aceita troca</td>
+                    </tr>
+                    <tr>
+                        <td>Gasolina e álcool</td>
+                        <td>7</td>
+                        <td>Preto</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                     <td>Único dono</td>
+                     <td>IPVA Pago</td>
+                     <td>Licenciado</td>
+                 </tr>
+                 <tr>
+                     <td>Sim</td>
+                     <td>Sim</td>
+                     <td>Sim</td>
+                 </tr>
+                </table>
+            </div>
+
+               <hr>
+               <p>Sobre este carro</p>
+               <h4>O Seminovo mais novo do Brasil está na IANES TECH! Temos o estoque mais diversificado do mercado e muitas vantagens para você voltar para casa com o seminovo mais novo do Brasil, confira! -Preços imbatíveis, as melhores condições de financiamento, entrada facilitada em até 10 vezes sem juros no cartão de crédito; -Carros revisados e com garantia de quilometragem real; -Licenciamento e IPVA do ano totalmente pagos; -Seu usado pode entrar na troca; -Agende já seu test-drive!!!!</h4>
+            </div>
+            <div class="col-2">
+                <div class="precoRenault">
+                    <h1>R$ 54.400</h1>
+                    <p>Envie uma mensagem ao vendedor</p>
+                    <input type="text" name="nome" id="nome" placeholder="Nome"><br>
+                    <input type="email" name="email" id="email" placeholder="E-mail"><br>
+                    <input type="text" name="tel" id="tel" placeholder="Telefone">
+                    <p>Mensagem</p>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Olá, tenho interesse no veículo. Por favor entre em contato."></textarea><br>
+                    <button type="submit">Enviar Mensagem</button>
+                </div> 
+            </div>
+        </div>
+     </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="../img/logo.png" alt="" width="250px">
+                </div>
+                <div class="footer-col-2">
+                    <h3>IANES TECH<br> A tecnologia mais perto de você!</h3>
+                    <p>Serviço de excelência em automóveis.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        
+                        <li><img src="https://img.icons8.com/ios/452/facebook-new.png" alt="" width="20px" height="20px">Facebook</li>
+                        <li><img src="https://thumbs.dreamstime.com/b/telefone-o-s%C3%ADmbolo-do-%C3%ADcone-vetor-logotipo-whatsapp-ao-pictograma-sinal-liso-isolado-no-fundo-branco-127128855.jpg" alt="" width="20px" height="20px">WhatsApp</li>
+                        <li><img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/instagram_icon_125245.png" alt="" width="20px" height="20px">Instagram</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px") MenuItems.style.maxHeight = "200px";
+            else MenuItems.style.maxHeight = "0px"
+        }
+    </script>
+
+
+</body>
+</html>

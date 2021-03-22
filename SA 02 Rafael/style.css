@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+  }
+
+body::-webkit-scrollbar-track{
+  background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: rgb(138, 219, 233);
+}
+
+/* CABEÇALHO */
+
+.menu-icon{
+    display: none;
+    width: 28px;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.rowColumn{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2-fc{
+    padding-left: 40px;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-s-4 h1{
+    font-size: 20px;
+    text-align: center;
+    margin:0;
+}
+
+.col-s-4 p{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.col-s-4 img{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 10px;   
+}
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 250px;
+}
+
+.header{
+    background: radial-gradient(#fff,rgb(138, 219, 233));
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+/* CARROS */
+
+.categorias{
+    margin: 70px 20px;
+}
+
+.categorias img{
+    margin-right: 20px;
+}
+
+/* CARROS DETALHES */
+
+.col-3{
+    flex-basis: 33%;
+    min-width: 250px;
+}
+
+.col-3 img{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 10px; 
+}
+
+table{
+    min-width: 250px;
+}
+
+h4{
+    margin-bottom: 30px;
+}
+
+table td{
+    padding: 15px;
+}
+
+table tr:nth-child(even){
+   background: rgb(207, 206, 206);
+   font-weight: bold;
+}
+
+.precoRenault{
+    padding-left: 100px;
+}
+
+input{
+    padding: 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom:2px;
+}
+
+textarea{
+    resize: none;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+button{
+    border-radius: 50px;
+    padding: 9px 10px;
+    background: rgb(178, 238, 238);
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.geral{
+    position: relative;
+    bottom: 50px;
+    max-width: 50%;
+    box-shadow: 1px 1px 1px 1px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+/* FALE CONOSCO */
+
+.map{
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+
+.footer{
+    background: radial-gradient(#fff,rgb(138, 219, 233));
+    font-size: 14px;
+    padding: 15px 0 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer p{
+   
+    text-align: center;
+}
+
+.footer h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer li{
+    text-align: center;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+    flex-basis: 33%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 625px) {
+    .logo{
+        width: 100px;
+    }
+
+    .col-2{
+        text-align: center;
+    }
+
+    .footer-col-1, .footer-col-2, .footer-col-3{
+        text-align: center;
+    }
+
+    .navbar{
+        padding: 1px;
+    }
+
+    .precoRenault{
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .col-2{
+        text-align: center;
+    }
+
+    .footer-col-1, .footer-col-2, .footer-col-3{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 320px){
+    .logo{
+        width: 120px;
+    }
+}
