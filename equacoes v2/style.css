@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #e3e4e6;
+}
+
+h3{
+    text-align: justify;
+}
+
+h3:hover{
+    color: rgb(62, 63, 63);
+}
+
+
+/* HEADER */
+
+.menu-icon{
+    display: none;
+    width: 28px;
+    margin-left: 20px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 1px 5px 0;
+    background: #cccdce;
+}
+
+.logo{
+    margin-left: 20px;
+    display: flex;
+}
+
+.logo img{
+    margin-top: 10px;
+}
+
+.logo h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo a:visited{
+    color: black;
+}
+
+.pesquisar{
+    
+    margin: auto;
+}
+
+.logar li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.logar ul{
+    margin-top: 15px;
+}
+
+.logar a{
+    text-decoration: none;
+}
+
+.logar a:visited{
+    color: black;
+}
+
+.logar a:hover{
+    color: blue;
+}
+
+.pesquisar input{
+    padding: 4px;
+    border-color: #cccdce;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.input input{
+    padding: 2px;
+    border-color: #cccdce;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* NAVBAR LATERAL */
+
+.navbarLateral{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    max-height: 100vh;
+    background: #cccdce;
+}
+
+.conteudoLateral a{
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.conteudoLateral ul{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.conteudoLateral a:visited{
+    color: black;
+}
+
+.conteudoLateral a:hover{
+    color: blue;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.container{
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.conteudoPrincipal{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    max-width: 960px;
+}
+
+.conteudoPrincipal a{
+    color: black;
+    text-decoration: none;
+}
+
+.conteudoPrincipal a:visited{
+    color: black;
+}
+
+.conteudoPrincipal hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* ATIVIDADES */
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input :is(p,button){
+    margin-top: 10px;
+}
+
+.input button{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.minwidth{
+    min-width: 250px;
+}
+
+.imagemAtividade img{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+/* LOGIN */
+
+.conteudoPrincipalLogin{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 550px;
+}
+
+.conteudoLogin{
+    max-height: 500px;
+    max-width: 626px;
+    margin: auto;
+}
+
+.formLogin{
+    margin-top: 80px;
+    margin-bottom: 130px;
+    background: url(./img/imgLogin.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.fieldsetLogin{
+    padding-top: 150px;
+    margin: auto;
+    max-width: 250px;
+    border: none;
+}
+
+.formLogin button{
+    padding: 5px;
+    margin: 5px 100px;
+    cursor: pointer;
+}
+
+.formLogin input{
+    padding: 5px;
+    margin: 10px 30px;
+}
+
+/* CADASTRO */
+
+.formCadastro{
+    padding-top: 70px;
+    max-width: 250px;
+    margin: auto;
+}
+
+.formCadastro input{
+    padding: 5px;
+    margin: 10px 30px;
+}
+
+.formCadastro button{
+    padding: 5px;
+    margin: 5px 80px;
+    cursor: pointer;
+}
+
+.conteudoCadastro{
+    background: url(https://image.freepik.com/fotos-gratis/quadro-negro-com-moldura-de-madeira-para-textura-de-fundo-com-espaco-de-copia_36991-239.jpg);
+    max-width: 626px;
+    min-height: 417px;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 190px;
+    margin-top: 80px;
+}
+
+/* FOOTER */
+
+.row{  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.footer{
+    background: #cccdce;
+    font-size: 14px;
+    padding: 15px 0 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer p{   
+    text-align: center;
+}
+
+.footer h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer li{
+    text-align: center;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+    flex-basis: 33%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 a, .footer-col-2 a, .footer-col-3 a{
+    color: black;
+}
+
+.footer-col-1 a:visited, .footer-col-2 a:visited, .footer-col-3 a:visited{
+    color: black;
+}
+
+.footer-col-1 img{
+    margin-left: 100px;
+}
+
+.footer-col-3{
+    text-align: center;
+}
+
+.footer-col-3 img{
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .navbarLateral{
+        display: none;
+    }
+
+    .logo h3{
+        display: none;
+    }
+
+    .logo img{
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .fieldsetLogin{
+        margin-left: 80px;
+    }
+
+    .formCadastro{
+        margin-left: 80px;
+    }
+
+    /* .formLogin{
+        background: url(./img/imgLoginMobile.jpeg);
+        background-repeat: no-repeat;
+    }
+
+    .conteudoCadastro{
+        background: url(./img/imgCadastroMobile.jpeg);
+        background-repeat: no-repeat;
+        min-height: 430px;
+    } */
+}
+
+@media only screen and (max-width: 480px){
+    .formLogin{
+        background: url(./img/imgLoginMobile.jpeg);
+        background-repeat: no-repeat;
+        margin-left: 40px;
+    }
+
+    .conteudoCadastro{
+        background: url(./img/imgCadastroMobile.jpeg);
+        background-repeat: no-repeat;
+        min-height: 430px;
+        margin-left: 40px;
+    }
+
+    .fieldsetLogin :is(input,button){
+        margin-top: -80px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+ .formLogin{
+        background: url(./img/imgLoginMobile.jpeg);
+        background-repeat: no-repeat;
+    }
+
+    .conteudoCadastro{
+        background: url(./img/imgCadastroMobile.jpeg);
+        background-repeat: no-repeat;
+        min-height: 430px;
+    } 
+}
