@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* INDEX */
+.navbar{
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    background-color: #32c280;
+}
+
+.navbar h5{
+    margin-top: 5px;
+    margin-right: 1em;
+    color: #d6f3e6;
+}
+
+.navbar-nav p{
+    margin-top: 8px;
+    color: #d6f3e6;
+}
+
+.iconFontSize{
+    margin-top: 5px;
+}
+
+.navbar2{
+    margin-left: 4em;
+}
+
+.navbar2 h4{
+    margin-right: 1em;
+    color: #919292;
+}
+
+.separador{
+    padding: 0 7em 0 7em;
+}
+
+.divisor{
+    border: none;
+    height: 0.2em;
+    color: #9f9f9f;
+    background-color: #9f9f9f;
+}
+
+.cor1{
+    color: #51b185;
+}
+
+.cor2{
+    color: #656565;
+}
+
+.cor3{
+    color: #000;
+}
+
+.cor4{
+    color: #32c580;
+}
+
+.bgCor4{
+    background-color: #32c580;
+}
+
+.corFooter{
+    background-color: #32c280;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.beneficiosSaude{
+    border: 1px solid #f4f3f3;
+}
+
+.borda1{
+    border-left: 5px solid #b2b2b2;
+}
+
+.borda2{
+    border-radius: 5px;
+    border: 2px solid #b2b2b2;
+}
+
+.bordaCadastro{
+    border-radius: 5px;
+    border: 2px solid #32c580;
+}
+
+.chatbot img{
+    margin: 0;
+    position: relative;
+    top: 25%;
+}
+
+.footer :is(p,h5){
+    color: #fff;
+}
+
+.enderecoFooter{
+    font-size: 12px;
+}
+
+.cadastro :is(a, p){
+    text-decoration: none;
+}
+
+.cadastroIndex:hover p{
+    color: #fff;
+}
+.cadastroIndex:hover{
+    background-color: #32c580;
+    border: 2px solid #32c580;
+}
+
+/* TELA CADASTRO */
+
+/* .form-control{
+    min-width: 500px;
+    border: 1px solid #32c280;
+} */
+
+.formWidth{
+    min-width: 500px;
+    border: 1px solid #32c280;
+}
+
+.nomeCadastro{
+    margin-right: 5em;
+    color: #32c280;
+}
+
+.nascimentoCadastro{
+    margin-right: 1.45em;
+    color: #32c280;
+}
+
+.enderecoCadastro{
+    margin-right: 2.8em;
+    color: #32c280;
+}
+
+.cpfCadastro{
+    margin-right: 6em;
+    color: #32c280;
+}
+
+.telefoneCadastro{
+    margin-right: 3.35em;
+    color: #32c280;
+}
+
+.emailCadastro{
+    margin-right: 5.10em;
+    color: #32c280;
+}
+
+.usuarioCadastro{
+    margin-right: 3.55em;
+    color: #32c280;
+}
+
+.senhaCadastro{
+    margin-right: 4.7em;
+    color: #32c280;
+}
+
+.confirmarSenhaCadastro{
+    margin-right: 2em;
+    color: #32c280;
+}
+
+.unidadeCadastro{
+    margin-left: 1em;
+    margin-right: 3.5em;
+    color: #32c280;
+}
+
+.form-check{
+    margin-right: 5em;
+}
+
+.checkbox{
+    margin-left: 8.8em;
+}
+
+.btnEnviar{
+    padding: 0.25em 2em 0.25em 2em;
+    color: #fff;
+    background-color: #32c280;
+    cursor: pointer;
+}
+
+/* RETORNO FORMULÁRIO */
+
+form :is(.nomeInvalido, 
+.enderecoInvalido, 
+.cpfInvalido, 
+.telefoneInvalido, 
+.emailInvalido,
+.usuarioInvalido, 
+.senhaInvalida, 
+.confirmarSenhaInvalido){
+    margin-left: 8em;
+    color: rgb(255, 66, 77);
+}
+
+@media only screen and (max-width: 991px){
+    .navbar p{
+        display: none;
+    }
+
+    .navbar2 p{
+        display: none;
+    }
+
+    .faleConosco{
+       padding: 0;
+    }
+
+    .form-control{
+        min-width: 300px;
+        border: 1px solid #32c280;
+    }
+
+    .btnEnviar{
+        margin-bottom: 3em;
+    }
+}
