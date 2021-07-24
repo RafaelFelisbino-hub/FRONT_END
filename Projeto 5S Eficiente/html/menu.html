@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/styleLucas.css">
+
+    <title>Menu</title>
+</head>
+<body>
+    <div class="container menu">
+        <div class="tresPontos mt-3">
+            <img src="../img/botão três pontos.png" id="tresPontos" alt="">
+        </div>
+        <span class="imagemContato" id="gota">
+            <img src="../img/Gota.png"alt="">
+            <a href="./contatos.html">Contatos</a>
+        </span>
+        <div class="container mt-3">
+            <div class="row gradeLinha">
+                <div class="col grade mr-5">
+                    <div class="imagem1 mt-1">
+                        <a href="./seiri.html">
+                            <img src="../img/n° 1.png" alt="">
+                        </a>
+                        
+                    </div>
+                    <p>SEIRI</p>
+                    <p>Senso de</p>
+                    <p>Utilização</p>
+                </div>
+                <div class="col grade">
+                    <div class="imagem2 mt-1">
+                        <a href="./seiton.html">
+                            <img src="../img/Template do app 5S (3).png.png" alt="">
+                        </a>
+                    </div>
+                    <p>SEITON</p>
+                    <p>Senso de</p>
+                    <p>Organização</p>
+                </div>
+            </div>
+            <div class="row gradeLinha mt-5">
+                <div class="col grade mr-5">
+                    <div class="imagem3 mt-1">
+                        <a href="./seiso.html">
+                           <img src="../img/n° 3.png" alt="">
+                        </a>
+                    </div>
+                    <p>SEISO</p>
+                    <p>Senso de</p>
+                    <p>Limpeza</p>
+                </div>
+                <div class="col grade">
+                    <div class="imagem4 mt-1">
+                        <a href="./seiketsu.html">
+                           <img src="../img/n°2.png" alt="">
+                        </a>
+                    </div>
+                    <p>SEIKETSU</p>
+                    <p>Senso de</p>
+                    <p>Padronização</p>
+                </div>
+            </div>
+            <div class="row gradeLinha mt-5">
+                <div class="col grade mr-5">
+                    <div class="imagem5 mt-1">
+                        <a href="./shitsuke.html">
+                            <img src="../img/n° 4.png" alt="">
+                        </a>
+                    </div>
+                    <p>SHITSUKE</p>
+                    <p>Senso de</p>
+                    <p>Utilização</p>
+                </div>
+                <div class="col grade" style="height: 85px;">
+                    <div class="column">
+                        <div class="gradeAgenda">
+                            <div class="imagemAgenda mt-1 row">
+                                <a href="./agenda.html">
+                                    <img src="../img/agenda.png">
+                                </a>
+                                <div class="row">
+                                    <p class="mt-4 ml-4">Agenda</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grade gradeAgenda imagemAgenda mt-4 row" style="height: 85px;">
+                            <a href="./padraoVisualDica.html" class="mt-1">
+                                <img src="../img/Câmera.png">
+                            </a>
+                            <div class="row">
+                                <p class="mt-4 ml-4">Padrão <br><br> Visual</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <br>
+    <script>
+        const tresPontos = document.getElementById("tresPontos");
+        const gota = document.getElementById("gota");
+
+        let contador = 0;
+        tresPontos.addEventListener("click", ()=>{
+            contador++;
+            if(contador%2 == 1)gota.style.display = "block"
+            else gota.style.display = "none"
+        })
+    </script>
+</body>
+</html>

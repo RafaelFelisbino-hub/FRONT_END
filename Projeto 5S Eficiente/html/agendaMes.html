@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scriptText_19_20.js" async></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- SETA VOLTAR -->
+    <div class="container">
+        <div class="tresPontos">
+            <img src="../img/botão três pontos.png" id="tresPontos" alt="">
+            <span class="gotaAgenda" id="gota">
+                <img src="../img/Gota.png" alt="">
+                <a class="textAgenda1" href="./urgencia.html">Inserir urgência e<br> Importância</a>
+                <a class="textAgenda2" href="./tarefa.html">Inserir Tarefa</a>
+            </span>
+        </div> 
+        <div class="row">
+            <a href="./agenda.html">
+                <a href="./agenda.html" class="setaAgendaAno"><img id="setaVoltarAgenda" src="../img/seta voltar tela anterior.png"></a>
+            </a>
+            <p class="agendaAno">Ano:</p>
+        </div>
+        <div class="row">
+            <div class="diaAgenda">
+                <img src="../img/1seg.PNG" id="segImg" alt="">
+            </div>
+            <p class="agendaAno">Mês:</p>
+        </div>
+        <div class="agenda2">
+            <img src="../img/agenda2.png" alt="">
+        </div>
+    </div>
+  
+    <script>
+        const tresPontos = document.getElementById("tresPontos");
+        const gota = document.getElementById("gota");
+
+        let contador = 0;
+        tresPontos.addEventListener("click", ()=>{
+            contador++;
+            if(contador%2 == 1)gota.style.display = "block"
+            else gota.style.display = "none"
+        })
+    </script>
+</body>
+</html>

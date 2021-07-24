@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: url('../img/fundo_tela.png');
+    height: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*INDEX*/
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 7em;
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+.containerIndex{
+    text-align: center;
+    margin-top: 9em;
+}
+.btn-login{
+    font-weight: bold;
+    padding: 13px 35px 13px 35px;
+    border-radius: 35px;
+    border:none;
+    background: #fff;
+    font-size: 20px;
+}
+.btn-cadastro{
+    font-weight: bold;
+    padding: 13px 15px 13px 15px;
+    border-radius: 35px;
+    border:none;
+    background: #fff;
+    font-size: 20px;
+}
+/*LOGIN*/
+.login img{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 3em;
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.login p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 4em;
+}
+.containerLogin{
+    margin-top: 5em;
+}
+.btn-entrar{
+    font-weight: bold;
+    padding: 13px 25px 13px 25px;
+    border-radius: 35px;
+    border:none;
+    background: #fff;
+    font-size: 20px;
+}
+.btnEntrar{
+    text-align: center;
+    margin-top: 3em;
+}
+::placeholder{
+    font-weight: bold;
+}
+.inputEmail{
+    background-color: #eae4e4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.inputSenha{
+    background-color: #eae4e4;
+    border-radius: 10px;
+    padding: 10px;
+}
+/*CADASTRO*/
+.formularioCadastro :is(.inputNomeCadastro,
+.inputEmailCadastro, 
+.inputSenhaCadastro, 
+.inputConfirmarSenhaCadastro){
+    background-color: #eae4e4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.classeBotaoCadastro{
+    text-align: center;
+}
+.btn-cadastrar{
+    font-weight: bold;
+    padding: 13px 25px 13px 25px;
+    border-radius: 35px;
+    border:none;
+    background: #fff;
+    font-size: 20px;
+}
+/*Menu*/
+.menu p{
+    color: #4c2d4f;
+}
+.imagemContato{
+    display: none;
+}
+.imagemContato img{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 180px;
+    opacity: 0.8;
+    left: 40%;
+}
+.imagemContato a{
+    z-index: 2;
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    padding: 15px;
+    border: solid 2px #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    top: 17%;
+    left: 48%;
+}
+
+.imagem1 img,
+.imagem2 img,
+.imagem3 img,
+.imagem4 img,
+.imagem5 img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.imagemAgenda img{
+    width: 60px;
+    height: 60px;
+}
+
+.tresPontos{
+    text-align: right;
+}
+.tresPontos img{
+    width: 40px;
+    z-index: 0;
+}
+#fundoRoxo{
+    width: 100px;
+    height: 100px;
+}
+.grade{
+    background-color: #eae4e4;
+    border-radius: 10px;
+}
+.gradeLinha{
+    text-align: center;
+}
+
+.gradeAgenda{
+    padding:10px;
+}
+
+.between{
+    justify-content:space-between;
+}
+
+#numerosFundo{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    top: 13%;
+    right: 36%;
+}
+#numerosFundoUm{
+    position: absolute;
+    width: 35px;
+    height: 55px;
+    top: 13%;
+    right: 40%;
+}
+.grade p{
+    line-height: 0.5;
+    margin-top: 1em;
+    font-weight: bold;
+}

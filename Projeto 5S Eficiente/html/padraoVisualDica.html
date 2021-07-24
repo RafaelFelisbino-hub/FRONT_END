@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrão Visual</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scriptText_21_22.js" async></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+   <div class="container">
+        <div class="voltarTelaPadrao">
+            <a href="./menu.html">
+                <img src="../img/seta voltar tela anterior.png">
+            </a>
+        </div>
+        <div class="tituloPadraoVisual">
+            <h4>Padrão Visual</h4>
+        </div>
+        <div class="container">
+            <div class="novaPasta">
+                <a href="./padraoVisualCriarPasta.html"><img src="../img/maisRoxo.PNG" alt=""></a>
+                <p>Nova pasta</p>
+            </div>
+            <div class="gotaPadrao" id="pular">
+                <img src="../img/GotaInvertida.png" alt="">
+                <p>Adicione as áreas e<br> comôdos a serem<br> organizados</p>
+                <button class="btn-pular">Pular</button>
+            </div>
+        </div>
+   </div>
+   <script>
+       const pular = document.getElementById('pular')
+       pular.addEventListener('click', () => {
+            pular.style.display = 'none';
+       });
+   </script>
+</body>
+</html>

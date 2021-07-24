@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shitsuke</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scriptText_26_27.js" async></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- SETA VOLTAR -->
+    <div class="voltarTela">
+        <a href="./menu.html">
+            <img src="../img/seta voltar tela anterior.png">
+        </a>
+    </div>
+    <!-- HEADER -->
+    <header class="container-fluid header mt-3 mb-0">
+        <div class="container">
+            <div class="row">
+                <p class="mt-3 texto-shitsuke">SHITSUKE</p>
+                <img src="../img/numero 5.png">
+                <p class="mt-2 texto-senso">Senso de</p>
+                <p class="disciplina mt-4">Disciplina</p>
+            </div>
+        </div>
+    </header>
+    <img class="imgCircle" src="../img/Template do app 5S (28).png.png">
+    <!-- CONTEÚDO -->
+    <div class="container conteudo">
+        <span class="text-display">
+            <p class="font-weight-bold">O que é?</p>
+            <img class="setaCima" src="../img/setinha roxa pra cima.png" id="on">
+        </span>
+
+        <p class="textOnOff" id="on2">A autodisciplina é o senso que deve estar presente no dia a dia de todos dentro da empresa.
+            É o que norteia o sucesso na aplicação dos outros "S". Isto é, todos devem estar cientes do cumprimento das metas relacionadas
+            à utilização, organização, padronização e limpeza e a partir disso cuidar para que sejam sempre cumpridas.
+        </p>
+
+        <p class="font-weight-bold mt-4 texto-pratica">SHITSUKE na prática</p>
+
+        <div class="exemplos mt-5">
+            <img src="../img/setinha roxa pra esquerda.png" class="setaEsquerda" id="setaEsquerda">
+            <p class="text-​justify texto-exemplos" id="texto-exemplos">1. Para se obter disciplina é preciso constante vigilância e controle,
+                isso é tarefa da chefia de cada setor.
+
+            </p>
+            <img src="../img/setinha roxa pra direita.png" class="setaDireita" id="setaDireita">
+        </div>
+    </div>
+
+    <script>
+        let onImg =  document.getElementById('on');
+        let onText = document.getElementById('on2');
+        let contador = 0;
+
+        onImg.addEventListener('click', () => {
+            contador++;
+            if(contador % 2 == 1)  onText.style.display = 'block';
+            else onText.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
